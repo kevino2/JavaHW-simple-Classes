@@ -26,6 +26,6 @@ private Calculator calculator;
 
     @Test
     public void testDivide() {
-        assertEquals( 3, calculator.divide(9,3));
+        assertEquals( 3, calculator.divide(9,3), 0.1);
     }
 }
